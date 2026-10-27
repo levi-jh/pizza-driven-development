@@ -18,6 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\PizzaShop.Api\PizzaShop.Api.csproj" />
     <ProjectReference Include="..\..\PizzaShop.Core\PizzaShop.Core.csproj" />
   </ItemGroup>
 
