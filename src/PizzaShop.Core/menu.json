@@ -1,0 +1,43 @@
+{
+  "taxRate": 0.065,
+  "sizes": [
+    { "code": "small", "name": "Small", "basePrice": 5.00 },
+    { "code": "medium", "name": "Medium", "basePrice": 7.00 },
+    { "code": "large", "name": "Large", "basePrice": 12.00 }
+  ],
+  "categories": [
+    { "code": "basic", "name": "Basic", "basePricePct": 0.08 },
+    { "code": "premium", "name": "Premium", "basePricePct": 0.11 }
+  ],
+  "toppings": [
+    { "code": "pepperoni", "name": "Pepperoni", "categoryCode": "basic" },
+    { "code": "sausage", "name": "Sausage", "categoryCode": "basic" },
+    { "code": "extra cheese", "name": "Extra Cheese", "categoryCode": "basic" },
+    { "code": "onions", "name": "Onions", "categoryCode": "basic" },
+    { "code": "black olives", "name": "Black Olives", "categoryCode": "basic" },
+    { "code": "green peppers", "name": "Green Peppers", "categoryCode": "basic" },
+    { "code": "bacon", "name": "Bacon", "categoryCode": "premium" },
+    { "code": "chicken", "name": "Chicken", "categoryCode": "premium" },
+    { "code": "garlic", "name": "Garlic", "categoryCode": "premium" },
+    { "code": "artichoke hearts", "name": "Artichoke Hearts", "categoryCode": "premium" },
+    { "code": "sun-dried tomatoes", "name": "Sun-Dried Tomatoes", "categoryCode": "premium" },
+    { "code": "pineapple", "name": "Pineapple", "categoryCode": "premium" }
+  ],
+  "promos": [
+    {
+      "code": "ILOVEPIZZA",
+      "type": "percentage",
+      "description": "10% off order total before tax",
+      "rate": 0.10,
+      "conflictsWith": [ "SAVE5" ]
+    },
+    {
+      "code": "SAVE5",
+      "type": "thresholdFlat",
+      "description": "$5 off when order total before tax is over $20",
+      "amount": 5.00,
+      "minSubtotalExclusive": 20.00,
+      "conflictsWith": [ "ILOVEPIZZA" ]
+    }
+  ]
+}
