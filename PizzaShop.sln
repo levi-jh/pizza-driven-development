@@ -6,6 +6,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{827E0CD3-B72
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaShop.Core", "src\PizzaShop.Core\PizzaShop.Core.csproj", "{27A043E0-4F1F-48DC-A4AA-69C810F86728}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaShop.Tests", "src\tests\PizzaShop.Tests\PizzaShop.Tests.csproj", "{2D25FEA3-5FAF-2456-35ED-811E7403F28B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -28,11 +30,24 @@ Global
 		{27A043E0-4F1F-48DC-A4AA-69C810F86728}.Release|x64.Build.0 = Release|Any CPU
 		{27A043E0-4F1F-48DC-A4AA-69C810F86728}.Release|x86.ActiveCfg = Release|Any CPU
 		{27A043E0-4F1F-48DC-A4AA-69C810F86728}.Release|x86.Build.0 = Release|Any CPU
+		{2D25FEA3-5FAF-2456-35ED-811E7403F28B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D25FEA3-5FAF-2456-35ED-811E7403F28B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D25FEA3-5FAF-2456-35ED-811E7403F28B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{2D25FEA3-5FAF-2456-35ED-811E7403F28B}.Debug|x64.Build.0 = Debug|Any CPU
+		{2D25FEA3-5FAF-2456-35ED-811E7403F28B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2D25FEA3-5FAF-2456-35ED-811E7403F28B}.Debug|x86.Build.0 = Debug|Any CPU
+		{2D25FEA3-5FAF-2456-35ED-811E7403F28B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D25FEA3-5FAF-2456-35ED-811E7403F28B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D25FEA3-5FAF-2456-35ED-811E7403F28B}.Release|x64.ActiveCfg = Release|Any CPU
+		{2D25FEA3-5FAF-2456-35ED-811E7403F28B}.Release|x64.Build.0 = Release|Any CPU
+		{2D25FEA3-5FAF-2456-35ED-811E7403F28B}.Release|x86.ActiveCfg = Release|Any CPU
+		{2D25FEA3-5FAF-2456-35ED-811E7403F28B}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{27A043E0-4F1F-48DC-A4AA-69C810F86728} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+		{2D25FEA3-5FAF-2456-35ED-811E7403F28B} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
 	EndGlobalSection
 EndGlobal
