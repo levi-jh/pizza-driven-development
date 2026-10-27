@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaShop.Core", "src\Pizza
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaShop.Tests", "src\tests\PizzaShop.Tests\PizzaShop.Tests.csproj", "{2D25FEA3-5FAF-2456-35ED-811E7403F28B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaShop.Api", "src\PizzaShop.Api\PizzaShop.Api.csproj", "{5473F0FB-F70B-220D-A4BA-4BEBADB419DD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,6 +44,18 @@ Global
 		{2D25FEA3-5FAF-2456-35ED-811E7403F28B}.Release|x64.Build.0 = Release|Any CPU
 		{2D25FEA3-5FAF-2456-35ED-811E7403F28B}.Release|x86.ActiveCfg = Release|Any CPU
 		{2D25FEA3-5FAF-2456-35ED-811E7403F28B}.Release|x86.Build.0 = Release|Any CPU
+		{5473F0FB-F70B-220D-A4BA-4BEBADB419DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5473F0FB-F70B-220D-A4BA-4BEBADB419DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5473F0FB-F70B-220D-A4BA-4BEBADB419DD}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{5473F0FB-F70B-220D-A4BA-4BEBADB419DD}.Debug|x64.Build.0 = Debug|Any CPU
+		{5473F0FB-F70B-220D-A4BA-4BEBADB419DD}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5473F0FB-F70B-220D-A4BA-4BEBADB419DD}.Debug|x86.Build.0 = Debug|Any CPU
+		{5473F0FB-F70B-220D-A4BA-4BEBADB419DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5473F0FB-F70B-220D-A4BA-4BEBADB419DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5473F0FB-F70B-220D-A4BA-4BEBADB419DD}.Release|x64.ActiveCfg = Release|Any CPU
+		{5473F0FB-F70B-220D-A4BA-4BEBADB419DD}.Release|x64.Build.0 = Release|Any CPU
+		{5473F0FB-F70B-220D-A4BA-4BEBADB419DD}.Release|x86.ActiveCfg = Release|Any CPU
+		{5473F0FB-F70B-220D-A4BA-4BEBADB419DD}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -49,5 +63,9 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{27A043E0-4F1F-48DC-A4AA-69C810F86728} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
 		{2D25FEA3-5FAF-2456-35ED-811E7403F28B} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+		{5473F0FB-F70B-220D-A4BA-4BEBADB419DD} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E20D027A-FEF5-4905-AE5E-C27628F07931}
 	EndGlobalSection
 EndGlobal
